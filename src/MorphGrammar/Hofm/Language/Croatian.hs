@@ -11,10 +11,13 @@
 -------------------------------------------------------------------------------}
 
 module MorphGrammar.Hofm.Language.Croatian (
+  grammarId,
+  module MorphGrammar.Hofm,
   module MorphGrammar.Hofm.Language.Croatian.Transf,
   module MorphGrammar.Hofm.Language.Croatian.Inflection,
   module MorphGrammar.Hofm.Language.Croatian.Derivation) where
 
+import MorphGrammar.Hofm hiding (sfx)
 import MorphGrammar.Hofm.Language.Croatian.Transf
 import MorphGrammar.Hofm.Language.Croatian.Inflection
 import MorphGrammar.Hofm.Language.Croatian.Derivation

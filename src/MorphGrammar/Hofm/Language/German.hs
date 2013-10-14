@@ -9,13 +9,17 @@
 -------------------------------------------------------------------------------}
 
 module MorphGrammar.Hofm.Language.German (
+  grammarId,
+  module MorphGrammar.Hofm,
   module MorphGrammar.Hofm.Language.German.Transf,
   module MorphGrammar.Hofm.Language.German.Inflection,
   module MorphGrammar.Hofm.Language.German.Derivation) where
 
+import MorphGrammar.Hofm
 import MorphGrammar.Hofm.Language.German.Transf
 import MorphGrammar.Hofm.Language.German.Inflection
 import MorphGrammar.Hofm.Language.German.Derivation
 
-grammarId = "German HOFM grammar rules 1.0"
+grammarId = "German HOFM grammar rules v1.1"
+
 
